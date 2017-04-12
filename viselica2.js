@@ -26,6 +26,7 @@ $(function () {
 
 createGamePlace();
 setupWordTable();
+
 /**
  * Отрисовка табло и темы
  */
@@ -35,6 +36,7 @@ function setupWordTable() {
         $(".guessWordTable").append('<div class="guessLetterTable"></div>');
     }
 }
+
 /**
  * Отображает ход игры
  * @param guess текущая загаданная буква
