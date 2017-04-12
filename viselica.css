@@ -1,0 +1,44 @@
+body button.start-game {
+    margin:10px auto;
+}
+.game {
+    margin:40px 40px;
+    display: none;
+}
+div.row canvas  {
+    position:absolute;
+    right: 0px;
+}
+.canvas,
+.missingLetters {
+    height: 200px;
+}
+.guessWordTable {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.guessLetterTable {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.missingLettersShow,
+.missingLettersTitle {
+    position:absolute;
+    top:10px;
+    left: 50px;
+}
+.missingLettersShow {
+    top:40px;
+    font-size: 20px;
+}
+.modal-content {
+    margin-top: 450px;
+}
